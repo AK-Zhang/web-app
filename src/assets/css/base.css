@@ -1,0 +1,59 @@
+html,body,ul,input,dl,a,span,p,i {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "MicrosoftYaHei";
+	font-size: 14px;
+	color: #7B7F8A;
+	border: none;
+	font-style: normal;
+}
+html {
+	/* height: 100%; */
+	margin: 0 auto;
+max-width: 768px;
+	background-color: #15161B;
+}
+/* body {
+	/* max-width: 768px;
+	margin: 0 auto; */
+	/* background-color: #15161B; 
+} */
+.fl {
+	float: left;
+}
+.fr	{
+	float: right;
+}
+a {
+	text-decoration:none;
+	color: #7B7F8A;
+}
+body {
+	/*background-color: #ccc;*/
+}
+.clear:after{
+	content:'';
+	display:block;
+	clear:both;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+}
+.clear{
+	zoom:1;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: "MicrosoftYaHei";
+	font-weight: 400;
+}
+
+.template {
+	height: 100%;
+  color: #7B7F8A;
+  background-color: #15161B;
+  font-family: "MicrosoftYaHei";
+}
+.flexeable {
+	display: flex;
+}
